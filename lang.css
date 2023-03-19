@@ -31,6 +31,8 @@
 .display_lang { 
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: #3e3e3e;
     position: relative;
     text-align: center;
