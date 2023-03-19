@@ -62,7 +62,7 @@ header {
     color:cadetblue;
 }
 nav {
-    min-width: 500px;
+    min-width: 300px;
     display: flex;
     align-items: right;
     justify-content: space-between;    
