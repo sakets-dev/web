@@ -48,7 +48,7 @@ header {
 
 .sec2 {
     z-index: 3;
-    background-color:coral;    
+    background-color: coral;    
     padding: 10vh 5vw;
     border-top-style: solid;
     border-width: 0.3vmax;
@@ -62,7 +62,7 @@ header {
     font-weight: bolder;
 }
 .full-name { 
-    color:coral;
+    color: coral;
 }
 nav {
     min-width: 300px;
@@ -108,7 +108,7 @@ main {
 }
 
 .typewriter{
-    color:coral;
+    color: coral;
 }
 #phrase{
     z-index: 2;
