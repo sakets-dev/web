@@ -11,6 +11,9 @@ body {
         margin: 0;
         box-sizing: border-box;
     }
+html { 
+    scroll-behavior: smooth;
+}
 
 header {
     padding: 20px 50px;
@@ -45,7 +48,7 @@ header {
 
 .sec2 {
     z-index: 3;
-    background-color:cadetblue;    
+    background-color:coral;    
     padding: 10vh 5vw;
     border-top-style: solid;
     border-width: 0.3vmax;
@@ -59,7 +62,7 @@ header {
     font-weight: bolder;
 }
 .full-name { 
-    color:cadetblue;
+    color:coral;
 }
 nav {
     min-width: 300px;
@@ -80,7 +83,7 @@ a {
 a:after {
     content:"";
     position: absolute;
-    background-color: rgb(81, 134, 136);
+    background-color: coral;
     height: 3px;
     width: 0;
     left: 0;
@@ -105,7 +108,7 @@ main {
 }
 
 .typewriter{
-    color:cadetblue;
+    color:coral;
 }
 #phrase{
     z-index: 2;
