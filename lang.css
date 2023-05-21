@@ -21,8 +21,12 @@
 
 }
 .more0color { 
-    color: cadetblue;
+    color: coral;
 }
+.more1color { 
+    color:coral;
+}
+
 #resume { 
     width: 100%;
     height: 600px;
@@ -36,7 +40,7 @@
     background: #3e3e3e;
     position: relative;
     text-align: center;
-    border-radius: 1px;
+    border-radius: 0.5px;
 }
 .display_lang::before,
 .display_lang::after { 
@@ -47,12 +51,12 @@
     height: calc(100% + 30Px);
     top: -15px;
     left: -15px;
-    border-radius: 1px;
+    border-radius: 0.5px;
     background: linear-gradient(45deg, 
     #ffff74d0, #73c5fb, #7785ff, #cd76ff, #ff73a2, #ff7575, 
     #ff73a2, #ff7575, #ffff74d0, #73c5fb, #7785ff, #cd76ff
     );
-    background-size: 300%;
+    background-size: 200%;
     animation: border 12s linear infinite;
 
 }
