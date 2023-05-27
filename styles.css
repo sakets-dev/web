@@ -31,9 +31,9 @@ header {
     }
 .typewriter {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;   
+    font-size: 1rem;   
     text-align: center ;
-    max-width: 65vh;
+    max-width: 100vh;
     word-spacing: 4px;
     padding-top: 50px;
     
@@ -129,7 +129,7 @@ main {
 }
 
 .welcome-message { 
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
     line-height: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -138,7 +138,7 @@ main {
 
 .welcome-title { 
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -146,23 +146,23 @@ main {
     text-align: center;
     color: white;
     line-height: 2rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
 #link{ 
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 #inst{ 
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 #git{ 
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 #mail{
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 #toggleDark{
