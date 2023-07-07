@@ -1,0 +1,42 @@
+
+.display { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    gap: 20px;
+    }
+
+.items { 
+    width: 100%;
+}
+
+  .caption {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.column {
+    flex: 1;
+}
+  
+.column button {
+  display: block;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+}
+
+.column button:hover {
+  transform: scale(1.1);
+}

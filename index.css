@@ -1,0 +1,172 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+    background-color: #2e2e2e;
+    color: white;
+    }
+
+    *:before,
+    *:after { 
+        margin: 0;
+        box-sizing: border-box;
+    }
+html { 
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+.title {
+    font-size: 1rem;    
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    }
+.typewriter {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1rem;   
+    text-align: center ;
+    max-width: 120vh;
+    word-spacing: 4px;
+    padding-top: 50px;
+    
+}
+
+#cursor{
+    display: inline;
+    animation-name:typinganimate;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+}
+
+.sec2 {
+    z-index: 3;
+    background-color:#c5f5d0;    
+    padding: 10vh 5vw;
+    border-top-style: solid;
+    border-width: 0.3vmax;
+    width:100%;
+}
+
+.sec2 h2{
+    background-color: rgb(255, 255, 255);  
+    font-size: 4vmax;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bolder;
+}
+.full-name { 
+    color:#c5f5d0;
+}
+nav {
+    min-width: 300px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;    
+    word-spacing: 5px;
+}
+
+a {
+    position: relative;
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 0.75rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+a:after {
+    content:"";
+    position: absolute;
+    background-color: #c5f5d0;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+    }
+
+a:hover:after {
+    width: 100%;
+}
+    
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    
+    }
+
+.item { 
+    width: 30%;
+}
+
+.typewriter{
+    color:#c5f5d0;
+}
+#phrase{
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255);
+    text-align: left;
+}
+@keyframes typinganimate{
+    0%  {opacity: 0%;}
+    50%{opacity: 0%}
+    51%{opacity: 100%}
+    100%{opacity: 100%}
+}
+#cursor{
+    display: inline;
+    animation-name:typinganimate;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+}
+
+.welcome-message { 
+    font-size: 0.8rem;
+    color: white;
+    line-height: 3.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+
+.welcome-title { 
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.extra { 
+    text-align: center;
+    color: white;
+    line-height: 3rem;
+    font-size: 0.8rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#link{ 
+    font-size: 20px;
+    cursor: pointer;
+}
+#inst{ 
+    font-size: 20px;
+    cursor: pointer;
+}
+#git{ 
+    font-size: 20px;
+    cursor: pointer;
+}
+#mail{
+    font-size: 20px;
+    cursor: pointer;
+}
+#interest_color { 
+    color: #c5f5d0
+}

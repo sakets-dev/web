@@ -1,0 +1,124 @@
+.discription{ 
+    font-size: 1rem;
+    color: white;
+    line-height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+.mid {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+    align-items: center;
+    width: 100%;
+}
+.titles-color { 
+    text-align: center;
+    font-size: 1.4rem;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.more0color { 
+    color: #c5f5d0;
+}
+.more1color { 
+    color:#c5f5d0;
+}
+
+.display_lang { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #3e3e3e;
+    position: relative;
+    font-size: 0.75rem;
+    text-align: center;
+    border-radius: 2px;
+}
+.display_lang::before,
+.display_lang::after { 
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    width: calc(100% + 30Px); 
+    height: calc(100% + 30Px);
+    top: -15px;
+    left: -15px;
+    border-radius: 0.25px;
+    background: linear-gradient(90deg, 
+    #9adba87d, #98baaaa7, #97d1c1ad, #8085a1, #556063, #5f676a, 
+    #5f676a, #556063, #8085a1, #97d1c1ad, #98baaaa7, #9adba87d
+    );
+    background-size: 200%;
+    animation: border 12s linear infinite;
+
+}
+
+.display_lang::after {
+    filter: blur(20px);
+}
+
+@keyframes border { 
+    0%, 100% { 
+        background-position: 0 0 ;
+    }
+    50% { 
+        background-position: 300%;
+    }
+}
+
+#python {
+    height: 100px;
+    width: auto;
+}
+#html {
+    height: 100px;
+    width: auto;
+}
+#css {
+    height: 100px;
+    width: auto;
+}
+#js {
+    height: 100px;
+    width: auto;
+}
+#c {
+    padding-left: 20px;
+    height: 100px;
+    width: auto;
+}
+
+.open-message { 
+    font-size: 0.8em;
+    color: white;
+    line-height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.mid { 
+    min-height: 10vh;
+    word-spacing: 4px;
+}
+.experience_example { 
+    text-align: left;
+}
+
+#title_one { 
+    text-align: left;
+    color: #c5f5d0;
+}
+#title_two { 
+    text-align: right;
+    color: #c5f5d0
+}
+#info_two { 
+    text-align: right;
+}
+#final_line { 
+    text-align: center;
+}
