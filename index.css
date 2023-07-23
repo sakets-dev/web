@@ -3,13 +3,24 @@ body {
     margin: 0;
     background-color: #2e2e2e;
     color: white;
-    }
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }    
 
     *:before,
     *:after { 
         margin: 0;
         box-sizing: border-box;
     }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }  
 html { 
     scroll-behavior: smooth;
 }
