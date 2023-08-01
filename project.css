@@ -1,34 +1,18 @@
 
 .display { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 20vh;
-    gap: 20px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  gap: 20px;
+  }
 
 .items { 
-    max-width: 90%;
+  max-width: 90%;
 }
 
-  .caption {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-  }
-  
 
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 30vh;
-}
-
-.column {
-    flex: 1;
-}
-  
-.column button {
+.left button {
   display: block;
   width: 100%;
   border: none;
@@ -37,6 +21,34 @@
   transition: transform 0.3s ease;
 }
 
-.column button:hover {
-  transform: scale(1.1);
+.left button:hover {
+  transform: scale(1.15);
+
+}
+
+
+.grid-box {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 0.5fr 1fr;
+  
+}
+
+.left {
+  text-align: center;
+
+}
+  
+
+.right {
+  text-align: left;
+}
+
+.caption_title{ 
+  color: #c5f5d0;
+}
+
+.f_line { 
+  text-align: center;
+  color: #aeaeae;
 }
