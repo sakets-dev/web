@@ -71,24 +71,24 @@
 }
 
 #python {
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 #html {
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 #css {
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 #js {
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 #c {
-    padding-left: 20px;
-    height: 100px;
+    padding-left: 15px;
+    height: 80px;
     width: auto;
 }
 
